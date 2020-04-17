@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+    background-image: url("../../assets/plus.png");
+    margin-right: 11px;
+    transition: 0.2s all ease;
+}
+
+.active .icon {
+    transform: rotate(45deg);
+}
+
+.title {
+    font-size: 16px;
+    color: #506981;
+}
+
+.active .title {
+    color: #88949f;
+}

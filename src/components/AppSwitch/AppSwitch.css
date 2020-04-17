@@ -1,0 +1,53 @@
+.switchWrapper {
+    line-height: 22px;
+    user-select: none;
+}
+.switchButton {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    vertical-align: top;
+    border-radius: 11px;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #5e9969;
+    margin: 0 13px;
+}
+
+.switchButton::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    top: 1.5px;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateX(0);
+    box-shadow: 0 3px 1.5px rgba(0,1,1,0.3);
+    transition: 0.1s all ease;
+}
+
+.switchButtonChecked::after {
+    transform: translateX(100%);
+    background-color: #fff;
+}
+
+.switchLabel {
+    font-size: 16px;
+    font-weight: 400;
+    color: #506981;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
+
+.switchLabelActive {
+    color: #adb9c4;
+    border-bottom: none;
+    cursor: default;
+}

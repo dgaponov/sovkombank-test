@@ -1,0 +1,28 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #fff;
+    color: #333333;
+    height: 44px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.input {
+    background: none;
+    border: none;
+    padding: 0 20px;
+    height: 100%;
+    font-size: 18px;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #98a3af
+}
+
+.input:focus, .input:active {
+    outline: none;
+    border: none;
+}

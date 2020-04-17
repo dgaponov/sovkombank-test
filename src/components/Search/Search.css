@@ -1,0 +1,118 @@
+.search {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchTop {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, rgb(130,179,229) 0%, rgb(168,213,233) 100%);
+    padding: 36px 20px;
+}
+
+.searchTopMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.searchSelect {
+    flex: 1 1 0;
+    margin-right: 1px;
+}
+
+.searchSelect:nth-child(1) {
+    border-radius: 4px 0 0 4px;
+}
+
+.searchSelect:nth-child(3) {
+    margin-right: 0;
+}
+
+.searchButton {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 90px;
+}
+
+.searchInput {
+    flex: 1 1 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.searchTopSettings {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+}
+
+.costSettings, .lengthSettings {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.settingsInput:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.settingsInput, .settingsSelect {
+    flex: 1 1 0;
+    background: #e6f2fe;
+}
+
+.settingsInput {
+    margin-right: 1px;
+}
+
+.settingsSelect {
+    border-radius: 0 4px 4px 0;
+}
+
+.addLengthButton {
+    width: 288px;
+    margin-left: 20px;
+}
+
+.addCostButton {
+    width: 508px;
+    margin-right: 20px;
+}
+.addCostButton + .settingsInput {
+    border-radius: 4px 0 0 4px;
+}
+
+.lengthSettings .settingsInput:nth-child(1) {
+    border-radius: 4px 0 0 4px;
+}
+
+.searchBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 19px;
+    background-color: rgb(230, 242, 254);
+}
+
+.toggles {
+    display: flex;
+    flex-direction: row;
+}
+
+.toggleFirst {
+    margin-right: 23px;
+}
+
+.inputAppend {
+    height: 44px;
+    line-height: 40px;
+    padding: 0 18px;
+    background: #c2e3f2;
+    font-weight: 500;
+    border-radius: 0 4px 4px 0;
+}
+
+.inputAppend sup {
+    font-size: 10px;
+}

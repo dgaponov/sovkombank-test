@@ -1,0 +1,18 @@
+.button {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px 8px;
+    text-align: center;
+}
+
+.button-default {
+    color: #506981;
+    border: 1px solid #4f6981;
+}
+
+.button-primary {
+    background: #5e9969;
+    color: #fff;
+    font-size: 20px;
+}
