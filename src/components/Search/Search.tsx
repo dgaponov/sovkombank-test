@@ -24,6 +24,14 @@ export default class Search extends VueComponent {
 
   addLengthEnabled = false;
 
+  @Watch('searchByName')
+  onSearchBuNameChanged(val: boolean) {
+    if (val) {
+      this.addLengthEnabled = false
+      this.addLengthEnabled = false
+    }
+  }
+
   @Watch('addCostEnabled')
   onCostEnabled(val: boolean) {
     if (val)
@@ -142,7 +150,7 @@ export default class Search extends VueComponent {
             secondOptionTitle={'Искать по названию'}
             v-model={this.searchByName}
           />
-          <div class={styles.toggles}>
+          <div class={styles.toggles} v-show={!this.searchByName}>
             <AppToggle
               class={styles.toggleFirst}
               title={'Цена'}

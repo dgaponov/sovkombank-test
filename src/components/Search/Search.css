@@ -80,6 +80,7 @@
     width: 508px;
     margin-right: 20px;
 }
+
 .addCostButton + .settingsInput {
     border-radius: 4px 0 0 4px;
 }
@@ -115,4 +116,8 @@
 
 .inputAppend sup {
     font-size: 10px;
+}
+
+.lengthSettings > .settingsInput:nth-child(3) {
+    margin-right: 0;
 }
