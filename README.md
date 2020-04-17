@@ -1,5 +1,9 @@
 # sovkombank-test
 
+Тестовое задание для Совкомбанка на позицию Frontend Vue разработчика
+
+DEMO: https://dgaponov.github.io/sovkombank-test/
+
 ## Project setup
 ```
 npm install
@@ -14,6 +18,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
